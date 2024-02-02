@@ -1,5 +1,6 @@
 package com.example.rickandmorty.data.network
 
+import com.example.rickandmorty.data.NetworkClient
 import com.example.rickandmorty.data.dto.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
