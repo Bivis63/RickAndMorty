@@ -1,7 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.RickAndMorty" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.RickAndMorty" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Фон -->
+        <item name="colorPrimary">@color/black</item>
+        <!-- Текст, который находится непосредственно на фоне -->
+        <item name="colorOnPrimary">@color/white</item>
+
+<!-- Для кнопок с белым текстом -->
+        <item name="colorSurface">@color/violet</item>
+        <item name="colorOnSurface">@color/white</item>
+        <!-- Названия строк персонажа -->
+        <item name="colorSecondary">@color/light_grey</item>
+        <item name="colorSecondaryVariant">@color/grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/blue</item>
+
     </style>
 </resources>
