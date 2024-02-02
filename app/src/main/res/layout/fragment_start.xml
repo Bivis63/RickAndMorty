@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".presentation.StartFragment">
 
     <TextView
@@ -15,6 +14,8 @@
         android:gravity="center_horizontal"
         android:layout_margin="@dimen/margin_32"
         android:textSize="@dimen/text_size_22"
+        android:textColor="?attr/colorOnPrimary"
+        android:fontFamily="@font/rick_morty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -22,9 +23,9 @@
     <ImageView
         android:id="@+id/placeholder_image"
         android:layout_width="wrap_content"
-        android:layout_height="320dp"
+        android:layout_height="400dp"
         android:layout_gravity="center"
-        android:src="@drawable/rick_morty_2"
+        android:src="@drawable/rick_morty_3"
         android:visibility="visible"
         android:layout_margin="@dimen/margin_32"
         app:layout_constraintEnd_toEndOf="parent"
