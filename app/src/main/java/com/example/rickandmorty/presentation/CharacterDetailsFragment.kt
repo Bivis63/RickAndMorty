@@ -1,24 +1,22 @@
 package com.example.rickandmorty.presentation
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.rickandmorty.data.network.RetrofitNetworkClient
-import com.example.rickandmorty.databinding.FragmentFirstBinding
+import com.example.rickandmorty.databinding.FragmentCharacterDetailsBinding
 import com.example.rickandmorty.domain.models.Character
-import com.example.rickandmorty.domain.models.Location
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlin.random.Random
 
+class CharacterDetailsFragment : Fragment() {
 
-class FirstFragment : Fragment() {
-
-    private var _binding: FragmentFirstBinding? = null
+    private var _binding: FragmentCharacterDetailsBinding? = null
     private val binding get() = _binding!!
 
     private var retrofitNetworkClient = RetrofitNetworkClient()
@@ -27,7 +25,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentFirstBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentCharacterDetailsBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
