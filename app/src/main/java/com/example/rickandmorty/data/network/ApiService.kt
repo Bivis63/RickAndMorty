@@ -11,5 +11,5 @@ interface ApiService {
     suspend fun getCharacter(@Path("id") id: Int): CharacterDto
 
     @GET("character")
-    suspend fun getAllCharacters(): List<CharactersDto>
+    suspend fun getAllCharacters(): CharactersDto
 }
