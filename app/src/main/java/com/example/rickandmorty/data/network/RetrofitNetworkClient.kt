@@ -19,5 +19,4 @@ class RetrofitNetworkClient() : NetworkClient {
     override fun doRequest(dto: Any): Response {
         TODO("Not yet implemented")
     }
-
 }

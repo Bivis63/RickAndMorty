@@ -1,6 +1,6 @@
 package com.example.rickandmorty.data.dto
 
-data class LocationDto (
+data class Origin(
     val name: String,
     val url: String
 )
