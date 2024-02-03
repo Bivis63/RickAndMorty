@@ -17,7 +17,7 @@ import kotlin.random.Random
 class CharacterDetailsFragment : Fragment() {
 
     private var _binding: FragmentCharacterDetailsBinding? = null
-    private val binding get() = _binding!!
+    private val binding get() = _binding?: throw RuntimeException("FragmentCharacterDetailsBinding = null")
 
     private var retrofitNetworkClient = RetrofitNetworkClient()
 
