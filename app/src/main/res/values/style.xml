@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iconListCharactersStyle">
+        <item name="android:layout_width">@dimen/width_160dp</item>
+        <item name="android:layout_height">@dimen/height_160dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="characterName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="specieCharacter">
+        <item name="android:layout_width">@dimen/width_160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#AEAFB4</item>
+    </style>
+</resources>

@@ -1,4 +1,4 @@
-package com.example.rickandmorty.presentation
+package com.example.rickandmorty.presentation.characters
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -24,6 +24,11 @@ class CharactersFragment : Fragment() {
     ): View {
         _binding = FragmentCharactersBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
     }
 
     override fun onDestroy() {
