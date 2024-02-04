@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/charactersFragment"
-        android:name="com.example.rickandmorty.presentation.CharactersFragment"
+        android:name="com.example.rickandmorty.presentation.characters.CharactersFragment"
         android:label="fragment_characters"
         tools:layout="@layout/fragment_characters">
     <action

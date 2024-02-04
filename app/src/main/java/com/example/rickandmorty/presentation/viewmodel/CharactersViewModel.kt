@@ -1,14 +1,12 @@
 package com.example.rickandmorty.presentation.viewmodel
 
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.rickandmorty.data.Result
 import com.example.rickandmorty.domain.usecase.GetCharactersUseCase
-import com.example.rickandmorty.presentation.CharactersState
+import com.example.rickandmorty.presentation.characters.CharactersState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

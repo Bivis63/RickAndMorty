@@ -54,8 +54,8 @@ dependencies {
 
 
     //Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     //ViewModel lifecycle
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
@@ -72,12 +72,16 @@ dependencies {
     //Dagger - Hilt
     implementation ("com.google.dagger:hilt-android:2.38.1")
     kapt ("com.google.dagger:hilt-android-compiler:2.38.1")
-    kapt ("androidx.hilt:hilt-compiler:1.0.0")
-    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
+    kapt ("androidx.hilt:hilt-compiler:1.1.0")
+//    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
 
     val fragment_version = "1.6.1"
+    //noinspection GradleDependency
     implementation("androidx.fragment:fragment-ktx:$fragment_version")
     val nav_version = "2.7.4"
+    //noinspection GradleDependency
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    //noinspection GradleDependency
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
 }

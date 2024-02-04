@@ -38,7 +38,8 @@ class CharacterDetailsFragment : Fragment() {
                     getRandomIdCharacter()
                 )
                 requireActivity().runOnUiThread() {
-                   showCharacter(character)
+                    TODO()
+//                   showCharacter(character)
                 }
             }
         }

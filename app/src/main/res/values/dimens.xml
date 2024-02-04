@@ -9,4 +9,7 @@
     <dimen name="text_size_24">24sp</dimen>
     <dimen name="width_0">0dp</dimen>
     <dimen name="height_0">0dp</dimen>
+    <dimen name="width_160dp">160dp</dimen>
+    <dimen name="height_160dp">160dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
 </resources>
